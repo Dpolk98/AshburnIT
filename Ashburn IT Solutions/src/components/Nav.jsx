@@ -1,3 +1,5 @@
+import logo  from '../assets/logo.svg';
+
 export function Nav() {
     const linkStyle = {  };
 
@@ -14,16 +16,16 @@ export function Nav() {
                 }}
             >
                 <div style={linkStyle}>
-                    <h1 href='#'>Home</h1>
+                    <img src={ logo } />
                 </div>
                 <div style={linkStyle}>
-                    <h2 href='#'>Government</h2>
+                    <h2 href='#'>Data Centers</h2>
                 </div>
                 <div style={linkStyle}>
-                    <h2 href='#'>Contractor</h2>
+                    <h2 href='#'>Commercial</h2>
                 </div>
                 <div style={linkStyle}>
-                    <h2 href='#'>About</h2>
+                    <h2 href='#'>Web Solutions</h2>
                 </div>
                 <div style={linkStyle}>
                     <h2 href='#'>Contact</h2>

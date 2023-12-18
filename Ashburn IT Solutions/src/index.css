@@ -16,11 +16,11 @@
 
 .main-header-menu {
   background-color: #2D292E;
-},
+}
 
 h2 {
   font-weight: 500;
-  color: #93A8A9;
+  color: #F2F6F5;
   text-decoration: inherit;
 }
 h2:hover {
@@ -34,7 +34,7 @@ body {
 }
 
 h1 {
-  font-size: 3.2em;
+  font-size: 3em;
   line-height: 1.1;
   color: #ff9900;
 }
