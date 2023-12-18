@@ -1,5 +1,5 @@
 export function Nav() {
-    const linkStyle = { border: '1px black', padding: '5px' };
+    const linkStyle = {  };
 
     return (
         <nav className="main-header-menu">
@@ -7,25 +7,26 @@ export function Nav() {
                 style={{
                     display: 'flex',
                     flexDirection: 'row',
-                    alignItems: 'flex-start',
-                    justifyContent: 'flex-start',
+                    alignItems: 'center',
+                    justifyContent: 'space-between',
+                    paddingLeft: '5em',
+                    paddingRight: '5em',
                 }}
             >
-                <p>test</p>
                 <div style={linkStyle}>
-                    <a href='#'>Home</a>
+                    <h1 href='#'>Home</h1>
                 </div>
                 <div style={linkStyle}>
-                    <a href='#'>Government</a>
+                    <h2 href='#'>Government</h2>
                 </div>
                 <div style={linkStyle}>
-                    <a href='#'>Contractor</a>
+                    <h2 href='#'>Contractor</h2>
                 </div>
                 <div style={linkStyle}>
-                    <a href='#'>About</a>
+                    <h2 href='#'>About</h2>
                 </div>
                 <div style={linkStyle}>
-                    <a href='#'>Contact</a>
+                    <h2 href='#'>Contact</h2>
                 </div>
             </section>
         </nav>
