@@ -1,15 +1,10 @@
-import { Navbar } from './components/Navbar'
+import Nav from './components/Nav'
 import './App.css'
 
-function App() {
-
+export default function App() {
   return (
-    <>
-      <div>
-        <Navbar></Navbar>
-      </div>
-    </>
-    )
-};
-
-export default App
+    <div>
+      <Nav />
+    </div>
+  );
+}
