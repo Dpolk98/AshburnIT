@@ -1,11 +1,9 @@
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
+  line-height: 1;
   font-weight: 400;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #F2F6F5;
+  background-color: #f2f6f5;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -15,22 +13,20 @@
 }
 
 .main-header-menu {
-  background-color: #2D292E;
+  background-color: #13191d;
+}
+img {
+  width: 50px;
+  height: 50px;
 }
 
-h2 {
-  font-weight: 500;
-  color: #F2F6F5;
-  text-decoration: inherit;
-}
-h2:hover {
-  color: #3c83b6;
-}
+.card {
+  border-radius: 1em;
+  max-width: 33%;
+  margin: 2em;
+  padding: 1em;
+  background-color: #13191d;
 
-body {
-  margin: 0;
-  min-width: 320px;
-  min-height: 100vh;
 }
 
 h1 {
@@ -39,41 +35,26 @@ h1 {
   color: #ff9900;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
+h2 {
   font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
+  color: #ffffff;
+  text-decoration: inherit;
 }
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+h2:hover {
+  text-shadow: 0 0 0.5em #50aaeb;
+  color:#4196d3;
 }
 
-.profile-footer {
-  text-align: center;
-  position: fixed;
-  inset: auto 0 0 0;
-  padding: 1em;
+h3 {
+  color: #ff9900;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #F2F6F5;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+p {
+  color: #f2f6f5;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
 }

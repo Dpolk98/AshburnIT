@@ -16,19 +16,19 @@ export function Nav() {
                 }}
             >
                 <div style={linkStyle}>
-                    <img src={ logo } />
+                    <svg href='#home' src= { logo }/>
                 </div>
                 <div style={linkStyle}>
-                    <h2 href='#'>Data Centers</h2>
+                    <h2 href='#dataCenters'>Data Centers</h2>
                 </div>
                 <div style={linkStyle}>
-                    <h2 href='#'>Commercial</h2>
+                    <h2 href='#commercial'>Commercial</h2>
                 </div>
                 <div style={linkStyle}>
-                    <h2 href='#'>Web Solutions</h2>
+                    <h2 href='#webSolutions'>Web Solutions</h2>
                 </div>
                 <div style={linkStyle}>
-                    <h2 href='#'>Contact</h2>
+                    <h2 href='#contact'>Contact</h2>
                 </div>
             </section>
         </nav>
