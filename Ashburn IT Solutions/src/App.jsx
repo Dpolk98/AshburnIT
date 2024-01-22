@@ -1,12 +1,11 @@
 import React from "react";
-import { Nav } from "./components/Nav";
-import { Card } from './components/Card';
+import { Card, Nav } from "./components/index";
 
 export default function App() {
   return (
-    <div>
+    <body>
       <Nav />
       <Card />
-    </div>
+    </body>
   );
 }

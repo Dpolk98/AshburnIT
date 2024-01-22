@@ -1,36 +1,34 @@
 import logo  from '../assets/logo.svg';
 
-export function Nav() {
-    const linkStyle = {  };
-
+function Nav() {
     return (
         <nav className="main-header-menu">
             <section
-                style={{
+            style={{
+                display: 'flex',
+                flexDirection: 'row',
+                alignItems: 'center',
+                justifyContent: 'space-between',
+            }}>
+                <div style={{
                     display: 'flex',
-                    flexDirection: 'row',
+                    flexDirection:'row',
                     alignItems: 'center',
-                    justifyContent: 'space-between',
-                    paddingLeft: '5em',
-                    paddingRight: '5em',
-                }}
-            >
-                <div style={linkStyle}>
-                    <svg href='#home' src= { logo }/>
+                    padding: '1em'
+                }}>
+                    <img src={ logo }/>
+                    <h2 style={{
+                        paddingLeft:'0.5em'
+                    }}> Ashburn IT Solutions</h2>
                 </div>
-                <div style={linkStyle}>
-                    <h2 href='#dataCenters'>Data Centers</h2>
-                </div>
-                <div style={linkStyle}>
-                    <h2 href='#commercial'>Commercial</h2>
-                </div>
-                <div style={linkStyle}>
-                    <h2 href='#webSolutions'>Web Solutions</h2>
-                </div>
-                <div style={linkStyle}>
-                    <h2 href='#contact'>Contact</h2>
+                <div style={{
+                    paddingRight:'1em'
+                }}>
+                    <button>Contact Us</button>
                 </div>
             </section>
         </nav>
     );
 }
+
+export { Nav }

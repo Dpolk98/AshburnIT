@@ -13,21 +13,32 @@
 }
 
 .main-header-menu {
-  background-color: #13191d;
-}
-img {
-  width: 50px;
-  height: 50px;
+  background-color: #0a0e12;
 }
 
-.card {
+.cardContainer {
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: center;
+ flex-wrap: wrap;
+}
+
+.summaryCard {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
   border-radius: 1em;
-  max-width: 33%;
-  margin: 2em;
+  max-width: 43%;
+  margin: 1em;
   padding: 1em;
-  background-color: #13191d;
-
+  background-color: #0a0e12;
 }
+
+/* .summaryCard:hover {
+  box-shadow: 0 0 1em #ff9900;
+} */
 
 h1 {
   font-size: 3em;
@@ -36,11 +47,23 @@ h1 {
 }
 
 h2 {
-  font-weight: 500;
+  font-size: 1.5em;
+  color:#ffffff;
+}
+
+h2:hover {
+  color:#ff9900;
+}
+
+button {
+  font-size: 1.5em;
+  background-color: #0a0e12;
+  border: none;
   color: #ffffff;
   text-decoration: inherit;
 }
-h2:hover {
+
+button:hover {
   text-shadow: 0 0 0.5em #50aaeb;
   color:#4196d3;
 }
@@ -57,4 +80,13 @@ body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
+  background-image: url('./assets/serverPorts.jpg'), url('./assets/serverRacks.jpg');
+  background-repeat: initial;
+  background-size: contain;
+  background-color: #000000;
+  background-position-y: 4em;
+}
+
+img {
+  width: 5em;
 }
